@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="cl.tenpo.learning.reactive.tasks.task2.application.service.CalculatePercentageUseCaseTest$CalculateTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-05-05T19:03:03" hostname="MARGUA0225M" time="0.593">
+<testsuite name="cl.tenpo.learning.reactive.tasks.task2.application.service.CalculatePercentageUseCaseTest$CalculateTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-05-05T19:45:26" hostname="MARGUA0225M" time="0.545">
   <properties/>
-  <testcase name="shouldUseCachedValueWhenExternalFails()" classname="cl.tenpo.learning.reactive.tasks.task2.application.service.CalculatePercentageUseCaseTest$CalculateTests" time="0.587"/>
-  <testcase name="shouldFailWhenExternalAndCacheAreUnavailable()" classname="cl.tenpo.learning.reactive.tasks.task2.application.service.CalculatePercentageUseCaseTest$CalculateTests" time="0.005"/>
-  <system-out><![CDATA[[Test worker] 2025-05-05 15:03:03 ?[31mWARN ?[0;39m ?[36mc.t.l.r.t.t.a.s.CalculatePercentageUseCase?[0;39m - [CalculatePercentageUseCase] External service failed [external down] – falling back to cache 
-[Test worker] 2025-05-05 15:03:03 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.a.s.CalculatePercentageUseCase?[0;39m - [CalculatePercentageUseCase] Redis cache responds satisfactorily -> [1.1] 
-[Test worker] 2025-05-05 15:03:03 ?[31mWARN ?[0;39m ?[36mc.t.l.r.t.t.a.s.CalculatePercentageUseCase?[0;39m - [CalculatePercentageUseCase] External service failed [external down] – falling back to cache 
-[Test worker] 2025-05-05 15:03:03 ?[1;31mERROR?[0;39m ?[36mc.t.l.r.t.t.a.s.CalculatePercentageUseCase?[0;39m - [CalculatePercentageUseCase] Error processing calculation, error -> [503 SERVICE_UNAVAILABLE "No cached percentage available and external service failed"] 
+  <testcase name="shouldUseCachedValueWhenExternalFails()" classname="cl.tenpo.learning.reactive.tasks.task2.application.service.CalculatePercentageUseCaseTest$CalculateTests" time="0.539"/>
+  <testcase name="shouldFailWhenExternalAndCacheAreUnavailable()" classname="cl.tenpo.learning.reactive.tasks.task2.application.service.CalculatePercentageUseCaseTest$CalculateTests" time="0.004"/>
+  <system-out><![CDATA[[Test worker] 2025-05-05 15:45:26 ?[31mWARN ?[0;39m ?[36mc.t.l.r.t.t.a.s.CalculatePercentageUseCase?[0;39m - [CalculatePercentageUseCase] External service failed [external down] – falling back to cache 
+[Test worker] 2025-05-05 15:45:26 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.a.s.CalculatePercentageUseCase?[0;39m - [CalculatePercentageUseCase] Redis cache responds satisfactorily -> [1.1] 
+[Test worker] 2025-05-05 15:45:26 ?[31mWARN ?[0;39m ?[36mc.t.l.r.t.t.a.s.CalculatePercentageUseCase?[0;39m - [CalculatePercentageUseCase] External service failed [external down] – falling back to cache 
+[Test worker] 2025-05-05 15:45:26 ?[1;31mERROR?[0;39m ?[36mc.t.l.r.t.t.a.s.CalculatePercentageUseCase?[0;39m - [CalculatePercentageUseCase] Error processing calculation, error -> [503 SERVICE_UNAVAILABLE "No cached percentage available and external service failed"] 
 ]]></system-out>
   <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/marcelo.guajardo/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.19/154da3a65b4f4a909d3e5bdec55d1b2b4cbb6ce1/byte-buddy-agent-1.14.19.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning

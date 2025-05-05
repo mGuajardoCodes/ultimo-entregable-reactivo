@@ -19,4 +19,4 @@ KAFKA_SECURITY_PROTOCOL: PLAINTEXT
 
 percentage-service:
   percentage:
-    url: http://localhost:8083/learning-reactive/external-api/percentages
+    url: http://localhost:8083/learning-reactive/external-api/percentage

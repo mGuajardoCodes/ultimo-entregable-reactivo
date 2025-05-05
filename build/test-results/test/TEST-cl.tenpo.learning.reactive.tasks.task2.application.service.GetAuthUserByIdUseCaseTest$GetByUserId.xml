@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="cl.tenpo.learning.reactive.tasks.task2.application.service.GetAuthUserByIdUseCaseTest$GetByUserId" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-05-05T19:03:03" hostname="MARGUA0225M" time="0.006">
+<testsuite name="cl.tenpo.learning.reactive.tasks.task2.application.service.GetAuthUserByIdUseCaseTest$GetByUserId" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-05-05T19:45:26" hostname="MARGUA0225M" time="0.004">
   <properties/>
-  <testcase name="shouldReturnUserSuccessfully()" classname="cl.tenpo.learning.reactive.tasks.task2.application.service.GetAuthUserByIdUseCaseTest$GetByUserId" time="0.003"/>
-  <testcase name="shouldFailWhenAdapterThrowsError()" classname="cl.tenpo.learning.reactive.tasks.task2.application.service.GetAuthUserByIdUseCaseTest$GetByUserId" time="0.003"/>
-  <system-out><![CDATA[[Test worker] 2025-05-05 15:03:03 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.a.s.GetAuthUserByIdUseCase?[0;39m - [GetAuthUserByIdUseCase] Getting user by userId [ae687f66-14f8-48a0-97bf-cc3decc4eee9] 
-[Test worker] 2025-05-05 15:03:03 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.a.s.GetAuthUserByIdUseCase?[0;39m - [GetAuthUserByIdUseCase] Getting user by userId [78663a16-d84f-4543-b4a4-70853f4604f4] 
-[Test worker] 2025-05-05 15:03:03 ?[1;31mERROR?[0;39m ?[36mc.t.l.r.t.t.a.s.GetAuthUserByIdUseCase?[0;39m - [GetAuthUserByIdUseCase] Error getting user by id [78663a16-d84f-4543-b4a4-70853f4604f4] error -> [DB down] 
+  <testcase name="shouldReturnUserSuccessfully()" classname="cl.tenpo.learning.reactive.tasks.task2.application.service.GetAuthUserByIdUseCaseTest$GetByUserId" time="0.002"/>
+  <testcase name="shouldFailWhenAdapterThrowsError()" classname="cl.tenpo.learning.reactive.tasks.task2.application.service.GetAuthUserByIdUseCaseTest$GetByUserId" time="0.002"/>
+  <system-out><![CDATA[[Test worker] 2025-05-05 15:45:26 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.a.s.GetAuthUserByIdUseCase?[0;39m - [GetAuthUserByIdUseCase] Getting user by userId [c6f9c94f-530c-4500-994c-440ab9d14834] 
+[Test worker] 2025-05-05 15:45:26 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.a.s.GetAuthUserByIdUseCase?[0;39m - [GetAuthUserByIdUseCase] Getting user by userId [9928214b-bc57-469d-aae0-d6d016672628] 
+[Test worker] 2025-05-05 15:45:26 ?[1;31mERROR?[0;39m ?[36mc.t.l.r.t.t.a.s.GetAuthUserByIdUseCase?[0;39m - [GetAuthUserByIdUseCase] Error getting user by id [9928214b-bc57-469d-aae0-d6d016672628] error -> [DB down] 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

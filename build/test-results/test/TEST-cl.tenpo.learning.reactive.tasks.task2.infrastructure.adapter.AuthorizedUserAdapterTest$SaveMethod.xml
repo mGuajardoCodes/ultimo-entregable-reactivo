@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="cl.tenpo.learning.reactive.tasks.task2.infrastructure.adapter.AuthorizedUserAdapterTest$SaveMethod" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-05T19:03:03" hostname="MARGUA0225M" time="0.002">
+<testsuite name="cl.tenpo.learning.reactive.tasks.task2.infrastructure.adapter.AuthorizedUserAdapterTest$SaveMethod" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-05T19:45:26" hostname="MARGUA0225M" time="0.002">
   <properties/>
   <testcase name="shouldSaveAuthorizedUserSuccessfully()" classname="cl.tenpo.learning.reactive.tasks.task2.infrastructure.adapter.AuthorizedUserAdapterTest$SaveMethod" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
