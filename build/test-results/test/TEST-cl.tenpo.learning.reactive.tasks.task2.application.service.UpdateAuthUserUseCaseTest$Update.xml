@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cl.tenpo.learning.reactive.tasks.task2.application.service.UpdateAuthUserUseCaseTest$Update" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-05-05T19:03:03" hostname="MARGUA0225M" time="0.01">
+  <properties/>
+  <testcase name="shouldUpdateUserSuccessfully()" classname="cl.tenpo.learning.reactive.tasks.task2.application.service.UpdateAuthUserUseCaseTest$Update" time="0.003"/>
+  <testcase name="shouldFailWhenUserNotFound()" classname="cl.tenpo.learning.reactive.tasks.task2.application.service.UpdateAuthUserUseCaseTest$Update" time="0.002"/>
+  <testcase name="shouldFailWhenAdapterThrowsError()" classname="cl.tenpo.learning.reactive.tasks.task2.application.service.UpdateAuthUserUseCaseTest$Update" time="0.003"/>
+  <system-out><![CDATA[[Test worker] 2025-05-05 15:03:03 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.a.s.UpdateAuthUserUseCase?[0;39m - [UpdateAuthUserUseCase] User [AuthorizedUser[userId=1af9ee97-ee63-4ab4-9cc0-4bf54ca139d2, name=Marcelo, lastName=Guajardo, email=marcelo.guajardo@tenpo.cl, rol=USER, status=1]] updated successfully 
+[Test worker] 2025-05-05 15:03:03 ?[1;31mERROR?[0;39m ?[36mc.t.l.r.t.t.a.s.UpdateAuthUserUseCase?[0;39m - [UpdateAuthUserUseCase] Error updating user [AuthorizedUser[userId=ff728252-381a-4d52-bb16-0b99f5ca0985, name=Marcelo, lastName=Guajardo, email=marcelo.guajardo@tenpo.cl, rol=USER, status=1]] error -> [Cannot update a user that does not exist in the database] 
+[Test worker] 2025-05-05 15:03:03 ?[1;31mERROR?[0;39m ?[36mc.t.l.r.t.t.a.s.UpdateAuthUserUseCase?[0;39m - [UpdateAuthUserUseCase] Error updating user [AuthorizedUser[userId=ad6ddeec-a857-4aad-9431-6582613ff432, name=Marcelo, lastName=Guajardo, email=marcelo.guajardo@tenpo.cl, rol=USER, status=1]] error -> [DB error] 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
